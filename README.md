@@ -1,4 +1,6 @@
 # ALS_training.py:
+##### For this code we need 25Millions Movielens dataset which can be find at https://grouplens.org/datasets/movielens/25m/
+
 Recommendation System Training Using Matrix Factorization
 
 This Python script is designed to train a recommendation system model using matrix factorization. The model includes user and item biases as well as latent factors for improved accuracy.
