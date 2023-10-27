@@ -1,5 +1,5 @@
 # ALS_training.py:
-##### For this code we need 25Millions Movielens dataset which can be find at https://grouplens.org/datasets/movielens/25m/
+## For this code we can use 25Millions Movielens dataset which can be find at https://grouplens.org/datasets/movielens/25m/ or other datasets, it depends on the goal.
 
 Recommendation System Training Using Matrix Factorization
 
@@ -57,4 +57,6 @@ Plotting and Visualization
 The script provides options to visualize the training process and the RMSE values over iterations. The generated plots are saved as image files for reference.
 
 # recommender.py
+## We need to run the ALS_training.py before runing this code unless we already have the data: data_begin.pkl, bias-only_data.pkl, saved_data_16.pkl
+
 Python script that loads data, performs movie recommendations using a collaborative filtering approach, and plots a 2D embedding of movie items.
